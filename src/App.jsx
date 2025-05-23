@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 import About from './components/About'
 import Flavors from './components/Flavors'
 import HowToOrder from './components/HowToOrder'
@@ -11,12 +12,14 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div data-theme="charlie" className="min-h-screen">
-      <Header />
-      <main className="content-container">
-        {/* Other page content */}
-        <About /> 
-        <Flavors /> 
-        <HowToOrder />
+      <Navbar />
+      <main>
+        <Hero />
+        <div className="content-container">
+          <About /> 
+          <Flavors /> 
+          <HowToOrder />
+        </div>
         <FAQs />
         <ContactForm />
       </main>

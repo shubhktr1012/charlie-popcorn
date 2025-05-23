@@ -1,12 +1,86 @@
-# React + Vite
+# 🍿 Charlie's Gourmet Popcorn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for Charlie's Gourmet Popcorn business, built with React and Vite.
 
-Currently, two official plugins are available:
+![Charlie's Popcorn Preview](./public/vite.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Responsive design that works on all devices
+- Modern UI with smooth animations
+- Sections for:
+  - About Us
+  - Flavor Showcase
+  - How to Order
+  - FAQs
+  - Contact Form
+- Built with React 18 and Vite
+- Styled with Tailwind CSS and DaisyUI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- ⚛️ React 18
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+- 📱 Fully Responsive
+- 🔄 React Icons
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shubhktr1012/popcorn-landing.git
+   cd popcorn-landing
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser and https://charlie-popcorn.netlify.app/
+
+## 🏗️ Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+## 🌐 Deployment
+
+This project is configured for deployment on Netlify. The `netlify.toml` file includes the build settings.
+
+## 🤝 Contributing
+
+Contributions are not currently being accepted.
+
+## 📝 License
+
+This project is not licensed yet.
+
+---
+
+Made with ❤️ by Shubh Khatri
