@@ -1,51 +1,47 @@
 # 🍿 Charlie's Gourmet Popcorn
 
-A modern, responsive landing page for Charlie's Gourmet Popcorn business, built with React and Vite.
+A modern, responsive landing page for Charlie's Gourmet Popcorn business, featuring smooth scroll animations and interactive UI elements.
 
-![Charlie's Popcorn Preview](./public/vite.svg)
+![Charlie's Popcorn Preview](./public/charlie-preview.png)
 
 ## 🚀 Features
 
-- Responsive design that works on all devices
-- Modern UI with smooth animations
-- Sections for:
-  - About Us
-  - Flavor Showcase
-  - How to Order
-  - FAQs
-  - Contact Form
-- Built with React 18 and Vite
-- Styled with Tailwind CSS and DaisyUI
+- 🎨 Stunning hero section with animated scroll effects
+- 🧭 Dynamic navigation with active section highlighting
+- 📱 Fully responsive design for all devices
+- ⚡ Optimized performance with code splitting
+- 🎯 Smooth scroll behavior between sections
+- 🌈 Modern UI with custom animations
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React 18
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🌼 DaisyUI
-- 📱 Fully Responsive
-- 🔄 React Icons
+- ⚛️ React 18 with TypeScript
+- ⚡ Vite for fast development
+- 🎨 Styled with Tailwind CSS
+- 🎭 Framer Motion for animations
+- 📱 Fully responsive layout
+- 🔄 React Icons for beautiful icons
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js (v16 or higher)
+- npm (v8 or higher) or yarn
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shubhktr1012/popcorn-landing.git
-   cd popcorn-landing
+   git clone https://github.com/shubhktr1012/charlie-popcorn.git
+   cd charlie-popcorn
    ```
 
 2. Install dependencies:
    ```bash
    npm install
    # or
-   yarn install
+   yarn
    ```
 
 3. Start the development server:

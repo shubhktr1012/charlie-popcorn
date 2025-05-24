@@ -2,7 +2,9 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="hero-background relative pt-40 pb-16 px-6 sm:px-8 lg:px-12 min-h-screen flex items-center w-full">
+    <section className="hero-background relative pt-40 pb-0 px-6 sm:px-8 lg:px-12 min-h-[90vh] flex items-center w-full">
+      {/* Gradient overlay for smooth transition */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-base-100 to-transparent -z-10" />
       <div className="mx-auto max-w-6xl w-full flex flex-col-reverse lg:flex-row items-center gap-12 text-center lg:text-left mt-12">
         {/* Text Content */}
         <div className="flex-1">

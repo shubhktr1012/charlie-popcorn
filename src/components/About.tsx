@@ -6,10 +6,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden py-12 px-6 sm:px-8 lg:px-16 bg-base-100"
+      className="relative overflow-visible -mt-24 pt-32 pb-16 px-6 sm:px-8 lg:px-16 bg-base-100"
     >
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-base-200 to-base-100 opacity-40 pointer-events-none" />
+      {/* Gradient overlay for smooth transition */}
+      <div className="absolute -top-24 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-base-100 -z-10" />
 
       <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-start">
