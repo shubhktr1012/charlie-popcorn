@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/Development/charlie-popcorn/app/page": [
+      "static/media/7a514bda021b6b92-s.p.b628dbda.woff2",
+      "static/media/ae7b4f62a68c82ac-s.p.2190215b.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

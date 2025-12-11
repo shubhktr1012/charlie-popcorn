@@ -51,7 +51,7 @@ A modern, responsive landing page for Charlie's Gourmet Popcorn business, featur
    yarn dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser and https://charlie-popcorn.netlify.app/
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## 🏗️ Building for Production
 
@@ -65,9 +65,7 @@ yarn build
 
 The build artifacts will be stored in the `dist/` directory.
 
-## 🌐 Deployment
 
-This project is configured for deployment on Netlify. The `netlify.toml` file includes the build settings.
 
 ## 🤝 Contributing
 

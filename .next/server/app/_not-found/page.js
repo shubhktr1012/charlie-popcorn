@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/Development_charlie-popcorn_4374f917._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1c307a12._.js")
+R.c("server/chunks/ssr/ffcd6_next_dist_esm_build_templates_app-page_bc9994f8.js")
+R.c("server/chunks/ssr/[root-of-the-server]__629750a8._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__98ca0921._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4fec39ff._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ddcef0bd._.js")
+R.c("server/chunks/ssr/ffcd6_next_dist_client_components_7cde50ee._.js")
+R.c("server/chunks/ssr/ffcd6_next_dist_client_components_builtin_forbidden_971ecb21.js")
+R.c("server/chunks/ssr/06480_charlie-popcorn__next-internal_server_app__not-found_page_actions_54b08ebd.js")
+R.m(93841)
+module.exports=R.m(93841).exports
