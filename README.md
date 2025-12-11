@@ -2,32 +2,33 @@
 
 A modern, responsive landing page for Charlie's Gourmet Popcorn business, featuring smooth scroll animations and interactive UI elements.
 
-![Charlie's Popcorn Preview](./public/charlie-preview.png)
+![Charlie's Popcorn Preview](./public/popcorn-ss.png)
 
 ## 🚀 Features
 
 - 🎨 Stunning hero section with animated scroll effects
-- 🧭 Dynamic navigation with active section highlighting
-- 📱 Fully responsive design for all devices
-- ⚡ Optimized performance with code splitting
-- 🎯 Smooth scroll behavior between sections
-- 🌈 Modern UI with custom animations
+- 🧭 Dynamic navigation with auto-hiding navbar and active section highlighting
+- 📱 Fully responsive design optimized for mobile and desktop
+- ⚡ High performance with Next.js App Router and Server Components
+- 🎯 Smooth scroll behavior with intersection observers
+- 🌈 Modern UI with custom Tailwind animations and Framer Motion
+- 🥡 Interactive "How to Order" and flavor showcase
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React 18 with TypeScript
-- ⚡ Vite for fast development
-- 🎨 Styled with Tailwind CSS
-- 🎭 Framer Motion for animations
-- 📱 Fully responsive layout
-- 🔄 React Icons for beautiful icons
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (Custom configuration, no component libraries)
+- **Animations**: Framer Motion
+- **Font**: Next/Font (Google Fonts: Lobster & League Spartan)
+- **Deployment**: Vercel ready
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm (v8 or higher) or yarn
+- Node.js (v18 or higher)
+- npm or yarn
 
 ### Installation
 
@@ -51,7 +52,7 @@ A modern, responsive landing page for Charlie's Gourmet Popcorn business, featur
    yarn dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## 🏗️ Building for Production
 
@@ -63,7 +64,7 @@ npm run build
 yarn build
 ```
 
-The build artifacts will be stored in the `dist/` directory.
+This will compile the application in the `.next/` directory, optimized for production.
 
 
 
