@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for Charlie's Gourmet Popcorn business, featuring smooth scroll animations and interactive UI elements.
 
-![Charlie's Popcorn Preview](./public/popcorn-ss.png)
+![Charlie's Popcorn Preview](./public/images/popcorn-ss.png)
 
 ## 🚀 Features
 
